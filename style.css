@@ -31,8 +31,6 @@ header  {
     background-position: center bottom;
     background-size: cover;
     display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     text-shadow: 0px 0px 0px;
     letter-spacing: 2px;
@@ -93,6 +91,9 @@ main h3 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
 }
 .part1 {
     background-color: #B27778;
@@ -101,32 +102,32 @@ main h3 {
 }
 .b1 {
     background-color: #F8EEEE;
-    width: 274px;
+    width: 300px;
     color: #782829;
     margin-top: 42px;
-    padding-top: 31px;
-    padding-right: 31px;
-    padding-bottom: 31px;
-    padding-left: 31px;
+    padding-top: 41px;
+    padding-right: 41px;
+    padding-bottom: 41px;
+    padding-left: 41px;
     border-radius: 51px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     text-align: justify;
     display: flex;
     flex-wrap: wrap;
-    height: auto;
-    -webkit-transition: all 500ms ease 0ms;
-    -o-transition: all 500ms ease 0ms;
-    transition: all 500ms ease 0ms;
+    height: 300px;
+    -webkit-transition: all 300ms ease-in-out 0ms;
+    -o-transition: all 300ms ease-in-out 0ms;
+    transition: all 300ms ease-in-out 0ms;
 	
 
 	
 }
 .img01  {
-    width: 80%;
-    height: 100vh;
+    width: 73%;
+    height: 88vh;
     background-image: url(51586.jpg);
-    background-position: center center;
+    background-position: center top;
     background-size: cover;
     border-radius: 10px;
     flex: 1;
@@ -141,10 +142,10 @@ main h3 {
     line-height: 31px;
 }
 .img03 {
-    width: 90%;
+    width: 68%;
     height: 67vh;
     background-image: url(51587.jpg);
-    background-position: center center;
+    background-position: center top;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -157,21 +158,24 @@ main h3 {
 h4 {
     background-color: #9B272A;
     color: #F6DFE0;
-    width: 138px;
+    width: 153px;
     text-align: center;
     border-radius: 11px;
-    height: 55px;
+    height: 75px;
     display: flex;
     margin-bottom: 15px;
     justify-content: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 400;
 }
 
 .all {
     display: flex;
     justify-content: space-around;
+    margin-left: 197px;
+    margin-right: 197px;
 }
 .container {
     display: flex;
@@ -197,30 +201,16 @@ h4 {
     display: flex;
     justify-content: center;
 }
-.explain02 {
-    width: 100%;
-    height: 100px;
-    background-color: rgba(89,87,87,0.75);
-    color: rgba(224,224,224,1.00);
-    text-align: center;
-    line-height: 100px;
-    border-top-left-radius: 23px;
-    border-top-right-radius: 23px;
-    -webkit-transition: all;
-    -o-transition: all;
-    transition: all;
-}
 header h1 {
     color: rgba(237,237,237,1.00);
-    font-size: 82px;
+    font-size: 53px;
     text-align: center;
-    line-height: 101px;
     font-weight: 600;
-    align-items: baseline;
     justify-content: center;
     width: 100%;
     height: 100vh;
-    padding-top: 350px;
+    line-height: 65px;
+    padding-top: 215px;
 }
 .img02 {
     width: 100vh;
@@ -229,7 +219,6 @@ header h1 {
     background-size: cover;
     height: 100vh;
     border-radius: 23px;
-    padding-right: 0px;
     display: flex;
     flex: 1;
     margin-right: 70px;
@@ -242,8 +231,9 @@ header h1 {
 
 
 .b1:hover {
-    width: 600px;
+    width: 350px;
     font-size: x-large;
+    height: 350px;
 }
 .img01:hover {
     
@@ -264,4 +254,7 @@ header h1 {
     text-shadow: 0px 0px;
     -webkit-box-shadow: 0px 0px 42px;
     box-shadow: 0px 0px 42px;
+}
+main h3:hover {
+    background-color: rgba(210,66,69,1);
 }
